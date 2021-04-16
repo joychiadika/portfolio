@@ -1,0 +1,303 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.uli{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.jy{
+  margin-left: 60px;
+}
+
+.uo{
+  display: flex;
+}
+.up{
+  display: flex;
+  justify-content: center; 
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  box-shadow: 1px 0.7rem rgb(0 0 0 / 4%);
+  padding-top: 11px;
+  padding-bottom: 16px;
+  font-family: cursive ;
+  font-weight: 600;
+  font-size: 23px;
+  
+}
+.herosection{
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: cursive ;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-around;
+  background-color: rgb(250 248 251);
+}
+
+.herosection h2 {
+  margin-left: 40px;
+}
+
+#name{
+  margin-top: 60px;
+  margin-left: 20px;
+  font-size: 45px;
+  font-family: cursive ;
+}
+.mid{
+  text-align: center;
+  font-family: cursive ;
+  border: 3px solid black;
+  width: 650px;
+  font-size: 33px;
+  border-radius: 10%;
+  margin-bottom: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#nam{
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 550;
+  font-family: cursive ;
+}
+.nav-link{
+  margin-right: 50px;
+  color: white;
+  font-family: cursive ;
+  
+}
+
+.link{
+  margin-right: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: cursive ;
+}
+.row{
+  margin-top: 30px;
+  border-radius: 55px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dose{
+  height: 400px;
+  background-color: rgb(219, 223, 219);
+  width: 400px;
+  margin-right: 10px;
+  font-family: cursive ;
+  padding: 15px;
+  margin-left: 5px;
+  text-align: center;
+  border-radius: 10px;
+  
+  
+}
+
+.dose p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 5px;
+  font-family: cursive ;
+  width: 300px;
+  margin-left: 69px;
+}
+
+.dose:hover{
+  background-color: rgb(44, 38, 40);
+  color: white;
+}
+.parent {
+  width: 100%;
+  background-color: rgb(44, 38, 40);
+  color: white;
+  font-family: cursive;
+}
+
+.main, body, html{
+  width: auto;
+}
+
+.magen{
+  margin-top: 35px;
+  font-size: 26px;
+}
+
+.footer{
+  font-size:20px;
+  font-family: cursive ;
+}
+.fa{
+  padding: 5px;
+  font-size: 30px;
+  font-family: cursive;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  border-radius: 7px;
+  
+}
+.fa-facebook{
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  border-radius: 7px;
+  margin-left: 170px;
+}
+.yogo{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.paran {
+  margin: 0px;
+  background-color: rgb(44, 38, 40);
+  color: white;
+  width: 100%;
+}
+.fil{
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: center;
+}
+.fa-facebook{
+  background: #638de9;
+  color: white;
+}
+.fa-linkedin{
+  background: #537dd6;
+  color: white;
+}
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background: #ee5590;
+  color: white;
+}
+.fa-youtube{
+  background: #e20909;
+  color: white;
+}
+.joy{
+  text-align: center;
+  font-family: cursive;
+}
+.w{
+
+  text-align: justify;
+  font-family: cursive    ;
+  margin-left: 27px;
+  line-height: 58px;
+  font-size: 27px;
+  padding: 10px;
+  width: 700px;
+}
+.video{
+  margin-bottom: 60px;
+ width:700px;
+ 
+}
+.wa{
+  border: 3px solid rgb(24, 21, 21);
+  width: 350px;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 30px;
+  font-family: cursive;
+}
+.community{
+  display: flex;
+  justify-items: baseline;
+  margin-top: 40px;
+ 
+}
+.wat{
+  border: 3px solid rgb(20, 19, 19);
+  width: 250px;
+  border-radius: 9%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: cursive;
+}
+
+.dose a {
+  color:rgb(44, 38, 40);
+  font-family: cursive ;
+}
+.dose hr{
+  width: 49px;
+  margin-left: 200px;
+  
+}
+.dose a:hover {
+  color:rgb(136, 133, 133);
+}
+.uli a{
+  color:rgb(44, 38, 40); 
+  font-family: cursive;
+}
+.img{
+  width: auto;
+}
+
+@media screen and (min-width: 300px) {
+  
+  .video{
+    /* padding: 0;
+    margin-left: 10px; */
+    margin-bottom: 60px;
+   
+  }
+  .dose{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+  .img{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .video{
+   
+    padding: 4px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+   
+  }
+  
+  .dose{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+  .img{
+    width: 100%;
+  }
+}
