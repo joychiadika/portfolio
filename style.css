@@ -88,7 +88,6 @@
   margin-top: 30px;
   border-radius: 55px;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -544,7 +543,7 @@
   }
 }
 
-@media screen and (min-device-width : 768px) and (max-device-width : 1366px) {
+@media screen and (min-device-width : 768px) and (max-device-width : 1006px) {
   /* Styles */
 /*   
   .nav-link{
