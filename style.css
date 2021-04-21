@@ -117,6 +117,9 @@
   background-color: rgb(44, 38, 40);
   color: white;
 }
+.dose a {
+  font-size: 20px;
+}
 .parent {
   width: 100%;
   background-color: rgb(44, 38, 40);
@@ -265,7 +268,10 @@
   width: auto;
 }
 
-@media screen and (min-device-width : 320px) and (max-device-width : 580px){
+
+
+
+@media screen and (max-device-width : 768px){
   .nav-link{
     display: none;
   }
@@ -285,15 +291,19 @@
 
     text-align: justify;
     margin-left: 2px;
-    line-height: 30px;
+    line-height: 32px;
     font-size: 23px;
     padding: 10px;
-    width: 300px;
+    width: auto;
     margin-bottom: 10px;
   }
   .video{
     margin-bottom: 60px;
-    width:320px;
+    width:360px;
+    justify-content: center;
+    margin-left: 9px;
+    margin-right: 9px;
+
    
   }
   .community{
@@ -308,11 +318,10 @@
 
   .wat{
     border: 3px solid rgb(20, 19, 19);
-    width: 190px;
-   
-    margin-top: 210px;
+    width: 199px;
+    margin-top: 250px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 29px;
     margin-left: auto;
     margin-right: auto;
     
@@ -320,44 +329,48 @@
   #name{
     margin-top: 60px;
     margin-left: 20px;
-    font-size: 33px;
+    font-size: 39px;
+    font-weight: 700;
+    padding: 5px;
    
   }
   #nam{
     margin-left: 20px;
-    font-size: 25px;
-    font-weight: 550;
+    font-size: 29px;
+    font-weight: 530;
     
   }
   .video{
-    /* padding: 0;
-    margin-left: 10px; */
+    padding: 0;
+    margin-left: 10px;
     margin-bottom: 60px;
+    width: auto;
   }
   .magen{
-    margin-top: 22px;
-    font-size: 27px;
+    margin-top: 0px;
+    font-size: 26px;
     text-align: center;
 
   }
   .herosection{
     box-sizing: border-box;
-    width: 320px;
+    width: auto;
+    height: auto;
   }
 
   .dose {
     box-sizing: border-box;
-    width: 320px;
-    margin-right: 0px;
+    width: auto;
+    margin-left: 7px;
     margin-bottom: 15px;
    
   }
 
 .dose p {
-  font-size: 17px;
+  font-size: 22.5px;
   text-align: justify;
   padding: 2px;
-  width: 280px;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
   ;
@@ -368,6 +381,7 @@
 
   .herosection h2{
     box-sizing: border-box;
+   
   }
 
   .row{
@@ -403,15 +417,17 @@
   text-decoration: none;
   margin-right: 0.5rem;
   border-radius: 7px;
-  margin-left: 2px;
+  margin-left: 100px;
 }
   .img{
     width: 100%;
+    
   }
 }
-@media screen and (min-device-width : 414px) and (max-device-width : 667px){
+
+/* @media screen and (min-device-width : 375px) and (max-device-width : 667px){
 .herosection{
-  width: 416px;
+  width: 400px;
 }
 .wat{
   border: 3px solid rgb(20, 19, 19);
@@ -475,12 +491,11 @@
 .img{
   width: auto;
 }
-}
+} */
 
  /* @media only screen and (m-width: 670px){
   .herosection{
-    width: 520px;
-    height: auto;
+     height: auto;
   }
   
   .wat{
@@ -549,18 +564,16 @@
  
   } */
 
-@media screen and (min-device-width : 768px) and (max-device-width : 1006px) {
-  /* Styles */
-/*   
-  .nav-link{
-    display: none;
-  } */
+
+
   
+@media screen and (min-device-width : 800px) and (max-device-width : 1366px) {
+ 
   .mid{
     text-align: center;
     border: 3px solid black;
-    width: 400px;
-    font-size: 37px;
+    width: 850px;
+    font-size: 49px;
     border-radius: 10%;
     margin-bottom: 18px;
     margin-left: auto;
@@ -571,17 +584,28 @@
 
     text-align: justify;
     margin-left: 7px;
-    line-height: 30px;
-    font-size: 23px;
+    line-height: 55px;
+    font-size: 45px;
     padding: 10px;
-    width: 750px;
+    width: 950px;
   }
   .video{
     margin-top: 20px;
     margin-bottom: 60px;
-    width:620px;
-    margin-left: 70px;
+    width: 720px;
+    margin-left: 150px;
    
+  }
+  .paran{
+    font-size: 53px;
+    height: auto;
+    width: auto;
+  }
+  .link{
+    font-size: 33px;
+  }
+  .footer{
+    font-size: 23px;
   }
   .community{
     display: flex;
@@ -592,23 +616,22 @@
 
   .wat{
     border: 3px solid rgb(20, 19, 19);
-    width:300px;
-   
-    margin-top: 200px;
-    margin-bottom: 29px;
-    font-size: 35px;
+    width:450px;
+    margin-top: 50px;
+    margin-bottom: 36px;
+    font-size: 55px;
     margin-left: auto;
     margin-right: auto;
   }
   #name{
     margin-top: 60px;
     margin-left: 20px;
-    font-size: 50px;
+    font-size: 75px;
    
   }
   #nam{
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 550;
   }
   .video{
@@ -618,26 +641,29 @@
   }
   .magen{
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 44px;
   }
   .herosection{
     box-sizing: border-box;
-    width: 768px;
+    width: auto;
   }
 
   .dose {
     
-    width: 768px;
+    width: auto;
     margin-right: 0px;
     margin-bottom: 15px;
+    padding: 10px;
    
   }
-
+.dose a{
+  font-size: 35px;
+}
 .dose p {
-  font-size: 23px;
+  font-size: 36px;
   text-align: justify;
   padding: 2px;
-  width: 400px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
   ;
@@ -656,7 +682,9 @@
     justify-content: space-around;
   }
   
-  
+  .navbar{
+    font-size: 35px;
+  }
 .footer{
   margin-left: 2px;
   font-size:30px;
@@ -692,7 +720,7 @@
 };
 
 
-@media screen and (min-device-width : 375px) and (max-device-width : 667px){
+/* @media screen and (min-device-width : 375px) and (max-device-width : 667px){
 
   .nav-link{
      display: none;
@@ -701,7 +729,7 @@
    .mid{
      border: 3px solid black;
      width: 320px;
-     font-size: 28px;
+     font-size: 29px;
      border-radius: 10%;
      margin-bottom: 18px;
      margin-left: auto;
@@ -730,13 +758,13 @@
     
    }
  
-   .wat{
+   .wat {
      border: 3px solid rgb(20, 19, 19);
      width: 180px;
     
      margin-top: 220px;
      margin-bottom: 20px;
-     font-size: 20px;
+     font-size: 33px;
      margin-left: auto;
      margin-right: auto;
    }
@@ -827,5 +855,5 @@
    .img{
      width: 100%;
    }
- }
+ } */
  
