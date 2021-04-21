@@ -29,7 +29,7 @@
   padding-bottom: 16px;
   font-family:'Aleo' ;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 33px;
   
 }
 .herosection{
@@ -51,12 +51,12 @@
 #name{
   margin-top: 60px;
   margin-left: 20px;
-  font-size: 45px;
+  font-size: 55px;
   font-family: 'Aleo' ;
 }
 #nam{
   margin-left: 20px;
-  font-size: 30px;
+  font-size: 37px;
   font-weight: 550;
   font-family: 'Aleo' ;
 }
@@ -118,7 +118,7 @@
   color: white;
 }
 .dose a {
-  font-size: 20px;
+  font-size: 24px;
 }
 .parent {
   width: 100%;
@@ -209,7 +209,7 @@
   font-family: 'Aleo' ;
   margin-left: 27px;
   line-height: 58px;
-  font-size: 27px;
+  font-size: 2px;
   padding: 10px;
   width: 700px;
 }
@@ -235,11 +235,11 @@
 }
 .wat{
   border: 3px solid rgb(20, 19, 19);
-  width: 250px;
+  width: 300px;
   border-radius: 9%;
   margin-top: 30px;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 40px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Aleo';
@@ -319,7 +319,7 @@
   .wat{
     border: 3px solid rgb(20, 19, 19);
     width: 199px;
-    margin-top: 250px;
+    margin-top: 50px;
     margin-bottom: 20px;
     font-size: 29px;
     margin-left: auto;
@@ -367,7 +367,7 @@
   }
 
 .dose p {
-  font-size: 22.5px;
+  font-size: 21px;
   text-align: justify;
   padding: 2px;
   width: auto;
